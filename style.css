@@ -1,7 +1,7 @@
 /* below is called a wild card (*). it means everything */
 * {
   box-sizing: border-box;
-}
+  }
 
 html,
 body {
@@ -17,6 +17,7 @@ body {
   justify-content: space-between;
   color: antiquewhite;
   font-size: 20px;
+
 }
 
 .links a {
@@ -40,20 +41,24 @@ body {
 
 footer {
   background-color: #684756;
-  color: antiquewhiteå;
+
+  color: #faebd7;
 }
 
 .hg-sidebar {
-  color: antiquewhite;
+  color: #faebd7;
   background-color: #3d314a;
 }
+
 
 .holy-grail {
   min-height: 100vh;
 }
 
+
 .holy-grail,
 .holy-grail-body {
+.holy-grail, .holy-grail-body {
   display: flex;
   flex: 1 1 auto;
   flex-direction: column;
@@ -61,13 +66,18 @@ footer {
 
 .holy-grail-content {
   flex: 1 1 auto;
+
   background-color: #96705b;
   color: antiquewhite;
   display: flex ;
+
+
+
 }
 
 .holy-grail-sidebar-1 {
   order: -1;
+
   padding: 130px;
 }
 @media (min-width: 768px) {
@@ -87,10 +97,29 @@ footer {
   top: 60px;
 } */
 
+  padding: 150px;
+
+} 
+ @media (min-width: 768px) {
+  .holy-grail-body{
+    flex-direction: row;
+  }
+ }
+
+ .holy-grail-sidebar-2 {
+  padding: 150px;
+ }
+
+ .quotes {
+  text-align: left;
+ }
+
+
 .bigquote {
   text-align: center;
   padding: 90px;
   font-size: 45px;
+
 }
 .name {
   margin: 10px;
@@ -127,3 +156,4 @@ footer {
 .cactus {
   width: 30px;
 }
+
