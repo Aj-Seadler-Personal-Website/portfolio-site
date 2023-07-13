@@ -63,6 +63,7 @@ footer {
   flex: 1 1 auto;
   background-color: #96705b;
   color: antiquewhite;
+  display: flex ;
 }
 
 .holy-grail-sidebar-1 {
@@ -79,10 +80,12 @@ footer {
   padding: 130px;
 }
 
-.quotes {
-  text-align: left;
-  margin: 10px;
-}
+/* .guitar {
+  width: 400px;
+  position: relative;
+  left: 25%;
+  top: 60px;
+} */
 
 .bigquote {
   text-align: center;
@@ -91,4 +94,36 @@ footer {
 }
 .name {
   margin: 10px;
+}
+
+.holy-grail-content p {
+  display: flex;
+  font-size: 23px;
+  justify-content: space-between;
+  position: relative;
+  bottom: 100px;
+  left: 200px;
+
+  
+  
+}
+
+.holy-grail-content img {
+  width: 400px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  margin: 30px;
+  margin-top: 30px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: space-between;
+}
+
+.cactus {
+  width: 30px;
 }
