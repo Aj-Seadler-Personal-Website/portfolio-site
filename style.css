@@ -184,30 +184,7 @@ footer {
   padding: 150px;
 
 } 
- @media (min-width: 768px) {
-  .holy-grail-body{
-    flex-direction: row;
-  }
- }
-
- .holy-grail-sidebar-2 {
-  padding: 150px;
- }
-
- .quotes {
-  text-align: left;
- }
-
-
-.bigquote {
-  text-align: center;
-  padding: 90px;
-  font-size: 45px;
-
-}
-.name {
-  margin: 10px;
-}
+ 
 
 .holy-grail-content p {
   display: flex;
