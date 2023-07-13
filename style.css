@@ -8,6 +8,7 @@ body {
   font-size: 1.13em;
   text-align: center;
   font-family: sans-serif;
+  margin: 0px;
 }
 
 .nav {
@@ -15,7 +16,8 @@ body {
   align-items: center;
   justify-content: space-between;
   color: antiquewhite;
-  font-size: 20px; 
+  font-size: 20px;
+
 }
 
 .links a {
@@ -23,14 +25,14 @@ body {
   padding-left: 10px;
   color: antiquewhite;
   font-size: 25px;
+  margin: 10px;
 }
 
 .holy-grail header,
 .holy-grail footer,
 .hg-sidebar,
 .holy-grail-content {
-  padding: 20px;
-  box-shadow: 0 2px 4px -2px black;
+  padding: 0px;
 }
 
 .holy-grail header {
@@ -39,17 +41,23 @@ body {
 
 footer {
   background-color: #684756;
+
+  color: #faebd7;
 }
 
 .hg-sidebar {
-color: antiquewhite;
-background-color: #3D314A;
+  color: #faebd7;
+  background-color: #3d314a;
 }
+
 
 .holy-grail {
   min-height: 100vh;
 }
 
+
+.holy-grail,
+.holy-grail-body {
 .holy-grail, .holy-grail-body {
   display: flex;
   flex: 1 1 auto;
@@ -58,13 +66,37 @@ background-color: #3D314A;
 
 .holy-grail-content {
   flex: 1 1 auto;
-  background-color: #96705B;
+
+  background-color: #96705b;
   color: antiquewhite;
+  display: flex ;
+
+
 
 }
 
 .holy-grail-sidebar-1 {
   order: -1;
+
+  padding: 130px;
+}
+@media (min-width: 768px) {
+  .holy-grail-body {
+    flex-direction: row;
+  }
+}
+
+.holy-grail-sidebar-2 {
+  padding: 130px;
+}
+
+/* .guitar {
+  width: 400px;
+  position: relative;
+  left: 25%;
+  top: 60px;
+} */
+
   padding: 150px;
 
 } 
@@ -82,8 +114,46 @@ background-color: #3D314A;
   text-align: left;
  }
 
+
 .bigquote {
   text-align: center;
   padding: 90px;
   font-size: 45px;
+
 }
+.name {
+  margin: 10px;
+}
+
+.holy-grail-content p {
+  display: flex;
+  font-size: 23px;
+  justify-content: space-between;
+  position: relative;
+  bottom: 100px;
+  left: 200px;
+
+  
+  
+}
+
+.holy-grail-content img {
+  width: 400px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  margin: 30px;
+  margin-top: 30px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: space-between;
+}
+
+.cactus {
+  width: 30px;
+}
+
