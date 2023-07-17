@@ -16,8 +16,10 @@ body {
   align-items: center;
   justify-content: space-between;
   color: antiquewhite;
+
   font-size: 15px;
   margin: 0px;
+
 }
 
 .links a {
@@ -88,6 +90,7 @@ footer {
   top: 60px;
 } */
 
+
 .quotes {
   text-align: center;
   margin: 10px;
@@ -108,6 +111,15 @@ footer {
 }
 .name {
   margin: 20px;
+=======
+.bigquote {
+  text-align: center;
+  padding: 90px;
+  font-size: 45px;
+}
+.name {
+  margin: 10px;
+
 }
 
 .holy-grail-content p {
@@ -142,6 +154,7 @@ footer {
   width: 30px;
 }
 
+
 .portcontent {
   display: flex;
   flex-direction: column;
@@ -154,3 +167,5 @@ footer {
   bottom: 400px;
   left: 12px;
 }
+
+
