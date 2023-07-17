@@ -16,7 +16,8 @@ body {
   align-items: center;
   justify-content: space-between;
   color: antiquewhite;
-  font-size: 20px;
+  font-size: 15px;
+  margin: 0px;
 }
 
 .links a {
@@ -87,13 +88,26 @@ footer {
   top: 60px;
 } */
 
+.quotes {
+  text-align: center;
+  margin: 10px;
+  position: relative;
+  top: 40px;
+}
+
+.quotes p {
+  position: relative;
+  top: 10px;
+  text-align: center;
+}
+
 .bigquote {
   text-align: center;
-  padding: 90px;
+  padding: x;
   font-size: 45px;
 }
 .name {
-  margin: 10px;
+  margin: 20px;
 }
 
 .holy-grail-content p {
@@ -126,4 +140,17 @@ footer {
 
 .cactus {
   width: 30px;
+}
+
+.portcontent {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.portcontent p {
+  position: relative;
+  bottom: 400px;
+  left: 12px;
 }
